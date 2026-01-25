@@ -1,0 +1,101 @@
+{
+  "leads": [
+    {
+      "name": "Siti Nurhasanah",
+      "email": "siti@digitalventures.co",
+      "phone": "+62 813 9876 5432",
+      "company": "Digital Ventures",
+      "status": "Negotiation",
+      "source": "Referral",
+      "notes": "Referred by existing client. Looking for marketing automation integration.",
+      "createdAt": "2025-01-15T10:00:00.000Z",
+      "updatedAt": "2026-01-25T13:31:09.253Z",
+      "id": "2"
+    },
+    {
+      "name": "Budi Santoso",
+      "email": "budi@innovatecorp.net",
+      "phone": "+62 814 5555 1234",
+      "company": "Innovate Corp",
+      "status": "Prospect",
+      "source": "Referral",
+      "notes": "Found us through LinkedIn campaign. Initial inquiry about pricing.",
+      "createdAt": "2025-01-10T09:00:00.000Z",
+      "updatedAt": "2026-01-25T12:56:41.468Z",
+      "id": "3"
+    },
+    {
+      "name": "Andi Wijaya",
+      "email": "andi@techsolutions.id",
+      "phone": "+62 815 7777 8888",
+      "company": "Tech Solutions",
+      "status": "Deal",
+      "source": "Cold Call",
+      "notes": "Interested in enterprise plan. Negotiating pricing.",
+      "createdAt": "2025-01-12T14:00:00.000Z",
+      "updatedAt": "2026-01-25T13:31:06.421Z",
+      "id": "4"
+    },
+    {
+      "name": "Eko Prasetyo",
+      "email": "eko@startuphub.io",
+      "phone": "+62 816 4444 6666",
+      "company": "Startup Hub",
+      "status": "Lost",
+      "source": "Website",
+      "notes": "Budget constraints. Might revisit in Q3.",
+      "createdAt": "2025-01-08T09:00:00.000Z",
+      "updatedAt": "2026-01-25T13:31:10.741Z",
+      "id": "5"
+    },
+    {
+      "name": "Rina Kusuma",
+      "email": "rina@creativeagency.com",
+      "phone": "+62 817 9999 1111",
+      "company": "Creative Agency",
+      "status": "Prospect",
+      "source": "Website",
+      "notes": "Interested in our design services package.",
+      "createdAt": "2025-01-20T11:00:00.000Z",
+      "updatedAt": "2026-01-25T13:31:04.539Z",
+      "id": "6"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "1",
+      "leadId": "2",
+      "type": "Call",
+      "description": "Discussed contract terms and pricing. Client agreed to annual subscription.",
+      "date": "2025-01-18T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "leadId": "2",
+      "type": "Meeting",
+      "description": "Final demo presentation with stakeholders. All questions answered satisfactorily.",
+      "date": "2025-01-20T14:30:00.000Z"
+    },
+    {
+      "id": "3",
+      "leadId": "2",
+      "type": "Email",
+      "description": "Sent proposal document with pricing breakdown and feature comparison.",
+      "date": "2025-01-16T09:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "leadId": "3",
+      "type": "Complaint",
+      "description": "Complained about slow response time on initial inquiry. Apologized and offered priority support.",
+      "date": "2025-01-17T11:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "leadId": "4",
+      "type": "Meeting",
+      "description": "Introductory call to understand their requirements and pain points.",
+      "date": "2025-01-19T15:00:00.000Z"
+    }
+  ]
+}
