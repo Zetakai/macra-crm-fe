@@ -65,6 +65,7 @@ macra-crm-fe/
 │   │   │   ├── LeadForm.tsx
 │   │   │   └── LeadList.tsx
 │   │   ├── layout/          # Komponen tata letak
+│   │   │   ├── Footer.tsx
 │   │   │   ├── Layout.tsx
 │   │   │   ├── Navbar.tsx
 │   │   │   └── Sidebar.tsx
@@ -152,7 +153,7 @@ macra-crm-fe/
 
 6. Buka browser dan navigasi ke:
    - Aplikasi: http://localhost:5173
-   - JSON Server: http://localhost:3000
+   - JSON Server: http://localhost:3001
 
 ### Skrip yang Tersedia
 
@@ -208,6 +209,7 @@ npm run preview
 - `GET /interactions` - Dapatkan semua interaksi
 - `GET /interactions?leadId=:id` - Dapatkan interaksi untuk lead tertentu
 - `POST /interactions` - Buat interaksi baru
+- `PUT /interactions/:id` - Perbarui interaksi
 - `DELETE /interactions/:id` - Hapus interaksi
 
 ## Desain Responsif
