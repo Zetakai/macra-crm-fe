@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { Lead, Interaction } from '@/types';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'http://localhost:3001';
 
 /**
  * API client instance for JSON Server
@@ -28,7 +28,12 @@ export const leadApi = {
   },
 
   create: async (lead: Omit<Lead, 'id' | 'createdAt' | 'updatedAt'>): Promise<Lead> => {
-    const response = await api.post('/leads', lead);
+    const now = new Date().toISOString();
+    const response = await api.post('/leads', {
+      ...lead,
+      createdAt: now,
+      updatedAt: now,
+    });
     return response.data;
   },
 
@@ -58,6 +63,11 @@ export const interactionApi = {
 
   create: async (interaction: Omit<Interaction, 'id'>): Promise<Interaction> => {
     const response = await api.post('/interactions', interaction);
+    return response.data;
+  },
+
+  update: async (id: string, interaction: Partial<Interaction>): Promise<Interaction> => {
+    const response = await api.put(`/interactions/${id}`, interaction);
     return response.data;
   },
 

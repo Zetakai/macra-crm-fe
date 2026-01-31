@@ -54,11 +54,21 @@
       "phone": "+62 817 9999 1111",
       "company": "Creative Agency",
       "status": "Prospect",
-      "source": "Website",
+      "source": "Referral",
       "notes": "Interested in our design services package.",
       "createdAt": "2025-01-20T11:00:00.000Z",
-      "updatedAt": "2026-01-25T13:31:04.539Z",
+      "updatedAt": "2026-01-31T17:58:03.010Z",
       "id": "6"
+    },
+    {
+      "id": "1e74",
+      "name": "Muhammad Farid Zaki",
+      "email": "muhammadfarid.zaki@gmail.com",
+      "phone": "+62 813 9000 0719",
+      "company": "Macra",
+      "status": "Prospect",
+      "source": "Website",
+      "notes": "Tertarik untuk menggunakan service HRIS dengan face recognition"
     }
   ],
   "interactions": [
